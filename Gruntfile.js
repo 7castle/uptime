@@ -68,9 +68,7 @@
 
     // Angular
     'linker/js/vendor/angular/angular.min.js',
-    'linker/js/vendor/angular/angular-resource.min.js',
-    'linker/js/vendor/angular/angular-route.min.js',
-    'linker/js/vendor/angular/angular-animate.min.js',
+    'linker/js/vendor/angular/angular-*.js',
 
     // All of the rest of your app scripts imported here
     'linker/**/*.js'

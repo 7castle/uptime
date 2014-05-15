@@ -15,23 +15,29 @@
  * @docs        :: http://sailsjs.org/#!documentation/controllers
  */
 
-module.exports = {
-    
-  
+ module.exports = {
+
+
   /**
    * Action blueprints:
    *    `/checks/index`
    *    `/checks`
    */
    index: function (req, res) {
-    
-    var checks = [
-      {}
-    ]
-    
-    var res = [];
 
-    return res.json(res);
+    var checks = [
+    {
+      _id: "201404161714QV398-LHS1EMUY",
+      label: "app2.nj",
+      type: "HTTP",
+      enabled: "active",
+      public: false,
+      uuid: "pwyoa3id-p2nu-4b7o-8c1c-0qqfekcaukl7",
+      live: true
+    }
+    ]
+
+    return res.json(checks);
   },
 
 
@@ -41,7 +47,7 @@ module.exports = {
    * Overrides for the settings in `config/controllers.js`
    * (specific to ChecksController)
    */
-  _config: {}
+   _config: {}
 
-  
-};
+
+ };
