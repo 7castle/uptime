@@ -1,21 +1,32 @@
-# uptime
+# Uptime
 
 An realtime server status monitor that interfaces with Nodeping.
 
+## Prerequisite
+
+  - Node.js
+  - Sails.js
+
 ## Install
 
-		# install dependencies
+### Install dependencies
+
 		npm install
 
-		# setup configuration
+### Setup configuration
+
 		cp config/default.yml.bak config/default.yml
 
 ## Start
 
 		sails lift
 
+## Deployment
+
+  See sailsjs official doc for details.
+
 ## Todo
 
-		Callback interface for nodeping
-		User
-		GCM notification
+  - Callback interface for nodeping
+  - User
+  - GCM notification
