@@ -1,0 +1,11 @@
+.status-green{
+	color: #2fcc66;
+}
+
+.status-red{
+	color: red;
+}
+
+.row-item{
+	padding: 15px;
+}

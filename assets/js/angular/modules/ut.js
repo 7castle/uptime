@@ -1,1 +1,1 @@
-var ut = angular.module('ut', ['ngResource', 'ngRoute', 'ngAnimate', 'Filters', 'ngSails']);
+var ut = angular.module('ut', ['ngResource', 'ngRoute', 'ngAnimate', 'Filters', 'ngSails', 'googlechart']);

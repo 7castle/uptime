@@ -1,0 +1,3 @@
+nodeping:
+  host: https://api.nodeping.com
+  token: 11111
